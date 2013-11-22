@@ -1,0 +1,145 @@
+#container{
+	width:960px;
+
+}
+
+#header{
+	background-color:#800000;
+	margin-bottom:0px;
+}
+
+#corner{
+	width:325px;
+	height:25px;
+	padding-right:60px;
+	float:right;
+}
+
+#corner ul{
+	text-align:right;
+	margin-top:10px;
+	margin-bottom:0px;
+}
+
+#corner ul li{
+	display:inline;
+	list-style-type:none;
+	color:white;
+	font-family:arial;	
+	font-size:12px;
+}
+
+#corner ul li a{
+	color:#FFCC33;
+	text-decoration:underline;
+	font-family:arial;
+	font-size:12px;
+}
+
+#corner form{
+	float:right;
+	margin-top:5px;
+}
+
+input{
+	width:120px;
+	height:18px;
+}
+
+button{
+	background-color:#800000;
+	height:20px;
+	width:55px;
+	color:white;
+	font-size:10px;
+}
+
+#navi{
+	background-color:#E6E6E6;
+	height:28px;
+	border-style:solid;
+	border-width:0px 0px 1px 0px;
+	border-bottom-color:#B2B2B2;
+	display:block;
+}
+
+#navi ul{
+	margin-top:0px;
+	padding-top:2px;
+	padding-left:12px;
+}
+
+#navi ul li{
+	display:inline;
+	list-style-type:none;
+	text-decoration:none;
+	color:#808080;
+	padding:0px 12px 0px 0px;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#navi ul li a{
+	padding-right:12px;
+	text-decoration:none;
+	color:#808080;
+}
+
+#sidebar{
+	display:block;
+	width:150px;
+	height:240px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#B2B2B2;
+	background-color:#E6E6E6;
+	margin:35px 0px 0px 15px;
+	float:left;
+}
+
+#sidebar ul{
+	padding:5px 0px 0px 20px;
+	list-style-image:url("bullet.jpg"); 
+	color:#800000;
+	font-family:arial;
+	font-size:12px;
+	display:inline-block;
+}
+#sidebar li{
+	padding-bottom:3px;
+}
+#sidebar li a{
+	text-decoration:underline;
+	color:#800000;
+}
+.space{
+	padding-left:20px;
+}
+#content{
+	width:575px;
+	display:inline-block;
+	font-family:arial;
+	font-size:12px;
+	margin:35px 0px 0px 35px;
+
+}
+#content a{
+	color:#800000;
+}
+h4{
+	font-size:18px;
+	margin:0px;
+	color:#800000;
+	font-weight:bolder;
+}
+h5{
+	color:#800000;
+	font-weight:bolder;
+	font-size:14px;
+}
+.bot-border{
+	padding-bottom:12px;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+}
